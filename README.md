@@ -1,16 +1,67 @@
-# Capacitive-Torque-Sensor
-This project focuses on the design and development of a Capacitive Torque Sensor system aimed at accurately measuring torque using capacitive sensing technology.
-The system includes custom sensor hardware, signal processing electronics, and embedded firmware to convert capacitance variations into torque readings. The goal is to deliver a low-cost, high-resolution, and compact torque measurement solution for research and industrial applications, particularly where traditional strain gauge-based sensors are less effective.
+# Capacitive Torque Sensor Project
 
-🔧 Key Components:
-> Capacitive Torque Sensor Design – Novel sensor plates layout to capture torque-induced deflection.
+![Product Overview](Images/32.jpg)
 
-Capacitance-to-Digital Conversion – Using PCAP04 CDC for high-resolution digital output.
+Welcome to the official repository for our **Capacitive Torque Sensor** – a novel torque sensing solution designed for precision, compactness, and cost-effectiveness. This repository contains all design files, documentation, and resources used in the development of our sensor system.
 
-Microcontroller Interface – ATmega16U4/32U4 for data processing and communication.
+## 📂 What’s Inside?
 
-Data Visualization – Real-time torque output to display and USB interface.
+This repo includes:
 
-3D CAD Design – Sensor housing optimized for mechanical stability and sensor alignment.
+- ✅ **CAD Designs** (SolidWorks): 3D models for the sensor structure.
+- ✅ **PCB Schematics** (Altium): Custom-designed electronics for sensing.
+- ✅ **Firmware Code**: Interface microcontroller with CDC and output handler.
+- ✅ **Documentation**:
+  - Full Design Report
+  - Production & Assembly Guidelines
+  - User Manual
+- ✅ **Images**: CAD visualizations, PCB renders, and actual prototype internals.
 
-Research & Market Study – Comparative analysis of existing products, datasheets, and patents.
+---
+
+## 🛠️ Project Summary
+
+Our system measures torque through **capacitive sensing technology**, leveraging the deformation of sensor plates to detect torque-induced changes in capacitance.
+
+**Core Components:**
+
+- **Sensor Design**: Custom plate layout for deflection measurement.
+- **Capacitance-to-Digital Converter**: Using *PCAP04 CDC* for accurate sensing.
+- **Microcontroller Interface**: *ATmega16U4/32U4* for data processing and USB communication.
+- **Visualization**: Real-time torque output via display and PC interface.
+- **Mechanical Housing**: Designed with precision for durability and alignment.
+
+---
+
+## 👥 Team & Collaboration
+
+This project was accomplished by a passionate group of **8 dedicated undergraduate engineers** from the University of Moratuwa. Over weeks of brainstorming, prototyping, testing, and redesigning, we gave our full effort to bring this innovation to life.
+
+---
+
+## 📸 Highlights from the Build
+
+### 1. Actual Final Product
+![CAD Design](Images/35.jpeg)
+
+### 2. Custom PCB
+![PCB Layout](Images/101.jpg)
+
+### 3. Internal View of Sensor
+![Internal View](Images/perf.png)
+
+### 4. Exploded View
+![Exploded View](Images/31.png)
+
+---
+
+## 📌 Final Note
+
+While we couldn't get a fully working sensor in the end, we achieved nearly **80% of our goal**. Our team poured countless hours into designing, simulating, assembling, coding, debugging, and refining this sensor. The journey taught us more than just engineering—it taught us perseverance, teamwork, and the power of iterative improvement.
+
+> “Hard work doesn't always guarantee success, but it always guarantees growth.”
+
+---
+
+🧠 Thank you for checking out our work. Feedback and suggestions are warmly welcome!
+
